@@ -1,8 +1,8 @@
 const posts = [
     {
-        title: "🌿 I Lost My Dream but Kept My Character 🌸",
+        title: "Taqat vs Pyaar 💫",
         category: "poetry",
-        description: `I have not won; rather, in this entire pursuit of winning, I have lost my character. Everyone has called me unfit yet I did not give up. Today, I myself admit I am unfit. You know, Sir, how I used to be; earlier, I felt proud of myself, but now even looking at myself fills me with unease. No, Sir, to achieve any dream I do not want to change who I am. I do not know whether I am right or wrong, but this is who I am this is my true self. Instead of fulfilling my dream, I should not lose my character, and so this is what I will do; even if I die, I will die with my character intact.`,
+        description: `Jahan aapko apni taqat dikhani hoti hai, wahan zyada kuch karna nahi padta — shakti pradarshan karna aasan hota hai. Lekin jahan prem dikhana hota hai, wahan asli mushkil shuru hoti hai. Iska sabse sundar udaharan Bhagwan Krishna hain jab unhe apni shakti dikhani hoti hai, to wo ek chhoti si ungli par Govardhan parvat utha lete hain, lekin jab unhe prem dikhana hota hai, to uska prateek hai bansuri wo halki si bansuri bhi dono haathon se uthate hain. Kyunki taqat aasaan hai, par prem mushkil hai boss... prem mushkil hai. ❤️`,
     },
     {
         title: "🌿 Spirituality Beyond Renunciation 🌿",
