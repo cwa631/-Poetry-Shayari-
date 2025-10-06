@@ -8,7 +8,6 @@ body {
     position: relative;
 }
 
-/* 🌌 Animated Background */
 body::before {
     content: "";
     position: fixed;
@@ -36,7 +35,6 @@ body::before {
     }
 }
 
-/* ✨ Floating Particles */
 body::after {
     content: "";
     position: fixed;
@@ -62,7 +60,6 @@ body::after {
     }
 }
 
-/* 🪄 Header Animation */
 header {
     position: relative;
     z-index: 3;
@@ -120,6 +117,82 @@ h1 {
     color: white;
 }
 
+/* 🌸 Buttons Section (Filter + Diary) */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.main-filter,
+.diary-button {
+    background: linear-gradient(45deg, #facc15, #f472b6);
+    color: #0f172a;
+    font-weight: 700;
+    border-radius: 9999px;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(250, 204, 21, 0.4);
+    transition: all 0.3s ease;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.main-filter:hover,
+.diary-button:hover {
+    background: linear-gradient(45deg, #f472b6, #38bdf8);
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Filter dropdown styling */
+.filter-container {
+    position: relative;
+    display: inline-block;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%) scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    transition: all 0.4s ease;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    backdrop-filter: blur(8px);
+    z-index: 5;
+}
+
+.filter-container:hover .filter-options {
+    transform: translateX(-50%) scaleY(1);
+    opacity: 1;
+}
+
+.filter-options button {
+    margin: 0.3rem 0;
+    background: transparent;
+    border: none;
+    color: #facc15;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-options button:hover {
+    color: #38bdf8;
+    transform: scale(1.1);
+}
+
 /* ✨ Poem Card Styling */
 .poem-card {
     background: rgba(255, 255, 255, 0.08);
@@ -150,6 +223,7 @@ h1 {
     -webkit-background-clip: text;
     color: transparent;
     animation: colorFlow 3s ease-in-out infinite alternate;
+    margin-bottom: 0.8rem;
 }
 
 @keyframes colorFlow {
@@ -170,6 +244,7 @@ h1 {
     max-height: 90px;
     overflow: hidden;
     transition: max-height 0.6s ease;
+    margin-bottom: 1rem;
 }
 
 .poem-desc.expanded {
@@ -226,7 +301,6 @@ footer {
     z-index: 2;
 }
 
-/* 🌟 Responsive 3-column grid */
 #poemContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
