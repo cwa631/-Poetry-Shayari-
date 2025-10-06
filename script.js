@@ -2,7 +2,7 @@ const posts = [
     {
         title: "Taqat vs Pyaar 💫",
         category: "poetry",
-        description: `Jahan aapko apni taqat dikhani hoti hai, wahan zyada kuch karna nahi padta — shakti pradarshan karna aasan hota hai. Lekin jahan prem dikhana hota hai, wahan asli mushkil shuru hoti hai. Iska sabse sundar udaharan Bhagwan Krishna hain jab unhe apni shakti dikhani hoti hai, to wo ek chhoti si ungli par Govardhan parvat utha lete hain, lekin jab unhe prem dikhana hota hai, to uska prateek hai bansuri wo halki si bansuri bhi dono haathon se uthate hain. Kyunki taqat aasaan hai, par prem mushkil hai boss... prem mushkil hai. ❤️`,
+        description: `Jahan aapko apni taqat dikhani hoti hai, wahan zyada kuch karna nahi padta shakti pradarshan karna aasan hota hai. Lekin jahan prem dikhana hota hai, wahan asli mushkil shuru hoti hai. Iska sabse sundar udaharan Bhagwan Krishna hain jab unhe apni shakti dikhani hoti hai, to wo ek chhoti si ungli par Govardhan parvat utha lete hain, lekin jab unhe prem dikhana hota hai, to uska prateek hai bansuri wo halki si bansuri bhi dono haathon se uthate hain. Kyunki taqat aasaan hai, par prem mushkil hai boss... prem mushkil hai. ❤️`,
     },
     {
         title: "🌿 Spirituality Beyond Renunciation 🌿",
