@@ -1,3 +1,4 @@
+/* 🌌 Base Styling */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -8,6 +9,7 @@ body {
     position: relative;
 }
 
+/* ✨ Animated Gradient Background */
 body::before {
     content: "";
     position: fixed;
@@ -35,6 +37,7 @@ body::before {
     }
 }
 
+/* 🌠 Floating particles */
 body::after {
     content: "";
     position: fixed;
@@ -60,6 +63,7 @@ body::after {
     }
 }
 
+/* 🌸 Header */
 header {
     position: relative;
     z-index: 3;
@@ -80,6 +84,7 @@ header {
     }
 }
 
+/* 🌈 Title Animation */
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
@@ -100,21 +105,6 @@ h1 {
         transform: translateY(-8px);
         filter: brightness(1.3);
     }
-}
-
-.btn-custom {
-    background: linear-gradient(45deg, #facc15, #f472b6);
-    color: #0f172a;
-    font-weight: 600;
-    border-radius: 9999px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(250, 204, 21, 0.4);
-}
-
-.btn-custom:hover {
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #f472b6, #38bdf8);
-    color: white;
 }
 
 /* 🌸 Buttons Section (Filter + Diary) */
@@ -150,7 +140,7 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Filter dropdown styling */
+/* 🔽 Filter dropdown styling */
 .filter-container {
     position: relative;
     display: inline-block;
@@ -216,6 +206,7 @@ h1 {
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
 }
 
+/* 🖋️ Title inside card */
 .poem-title {
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
@@ -236,6 +227,7 @@ h1 {
     }
 }
 
+/* 🪶 Poem description */
 .poem-desc {
     color: #e2e8f0;
     line-height: 1.7;
@@ -251,6 +243,7 @@ h1 {
     max-height: 1000px;
 }
 
+/* 💫 Read More Button */
 .read-more {
     margin-top: 1rem;
     background: linear-gradient(90deg, #facc15, #f472b6);
@@ -269,6 +262,7 @@ h1 {
     color: white;
 }
 
+/* ⏰ Date & Time */
 .poem-meta {
     font-size: 0.9rem;
     color: #cbd5e1;
@@ -283,6 +277,7 @@ h1 {
     color: #facc15;
 }
 
+/* ✍️ Signature */
 .signature {
     text-align: right;
     color: #f472b6;
@@ -291,6 +286,7 @@ h1 {
     margin-top: 1rem;
 }
 
+/* 📜 Footer */
 footer {
     text-align: center;
     padding: 1rem;
@@ -301,6 +297,7 @@ footer {
     z-index: 2;
 }
 
+/* 🌐 Responsive Grid */
 #poemContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -328,3 +325,28 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* 🎨 Highlight Classes for Poetry */
+.highlight {
+    color: #60a5fa; /* sky blue */
+    font-weight: 600;
+}
+
+.love {
+    color: #f87171; /* soft pink */
+    font-style: italic;
+    font-weight: 600;
+}
+
+.love-strong {
+    color: #ef4444; /* deep red */
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+}
+
+.divine {
+    color: #a78bfa; /* lavender */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
