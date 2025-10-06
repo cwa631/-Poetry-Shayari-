@@ -308,18 +308,21 @@ footer {
     z-index: 2;
 }
 
+/* 🖥️ Large Screens — 2 cards per row */
 @media (min-width: 1024px) {
     #poemContainer {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* 💻 Tablets — 2 cards per row */
 @media (min-width: 768px) and (max-width: 1023px) {
     #poemContainer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* 📱 Mobiles — 1 card per row */
 @media (max-width: 767px) {
     #poemContainer {
         grid-template-columns: 1fr;
@@ -328,25 +331,24 @@ footer {
 
 /* 🎨 Highlight Classes for Poetry */
 .highlight {
-    color: #60a5fa; /* sky blue */
+    color: #60a5fa;
     font-weight: 600;
 }
 
 .love {
-    color: #f87171; /* soft pink */
+    color: #f87171;
     font-style: italic;
     font-weight: 600;
 }
 
 .love-strong {
-    color: #ef4444; /* deep red */
+    color: #ef4444;
     font-weight: 700;
     text-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
 }
 
 .divine {
-    color: #a78bfa; /* lavender */
+    color: #a78bfa;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
-
